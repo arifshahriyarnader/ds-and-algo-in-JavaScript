@@ -12,6 +12,7 @@ const bubbleSort = (inputArray) =>{
 
         }
     }
+    return inputArray;
 }
 const inputArray = [5,2,8,6,3,9,15,10];
 bubbleSort(inputArray);
