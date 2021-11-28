@@ -6,7 +6,7 @@ const insertionSort = (inputArray) =>{
          j = i-1;
          while(j >= 0 && inputArray[j] > item){
              inputArray[j+1] = inputArray[j];
-             j = j-1;   
+             j = j-1;
          }
          inputArray[j+1] = item;
     }  
